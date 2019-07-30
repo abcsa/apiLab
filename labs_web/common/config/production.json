@@ -1,0 +1,19 @@
+{
+  "environment": "DEVELOPMENT",
+  "logFile": "labs-api-log.txt",
+  "host": "localhost",
+  "unsecurePort": 3001,
+  "securePort": 3009,
+  "db": {
+    "name": "labs",
+    "uri": "mongodb://labs:labs_123@localhost:27017/labs?authSource=admin",
+    "_uri": "mongodb://labs:labs_123@192.161.0.0:27017/labs?authSource=admin",
+    "trace": true
+  },
+  "url": {
+    "base": "https://localhost:3001"
+  },
+  "authentication": {
+    "minutesToExpire": 1440
+  }
+}
